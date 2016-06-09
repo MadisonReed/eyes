@@ -20,7 +20,11 @@ eyes.inspect({
     array: new(Array)(99, 168, 'x', {}),
     bool: new(Boolean)(false),
     object: new(Object)({attr: []}),
-    date: new(Date)
+    date: new(Date),
+    set: new(Set),
+    weakset: new(WeakSet),
+    map: new(Map),
+    weakmap: new(WeakMap)
 }, "wrapped types");
 
 var obj = {};
