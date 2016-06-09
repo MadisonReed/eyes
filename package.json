@@ -1,10 +1,10 @@
 {
-   "name":"eyes-es6-compat",
+   "name":"eyes",
    "description":"a customizable value inspector that uses hexadecimal literals",
-   "url":"https://github.com/justinhernandez/eyes-es6-compat",
+   "url":"https://github.com/MadisonReed/eyes",
    "repository":{
       "type":"git",
-      "url":"https://github.com/justinhernandez/eyes-es6-compat.git"
+      "url":"https://github.com/MadisonReed/eyes"
    },
    "keywords":[
       "inspector",
@@ -23,13 +23,17 @@
       {
          "name":"Justin Hernandez",
          "email":"transphorm@gmail.com"
+      },
+      {
+         "name":"Scott Stokes",
+         "email": "scottspork@gmail.com"
       }
    ],
    "licenses":[
       "MIT"
    ],
    "main":"./lib/eyes",
-   "version":"0.1.11",
+   "version":"0.1.12",
    "scripts":{
       "test":"node test/*-test.js"
    },
@@ -38,6 +42,6 @@
       "test":"./test"
    },
    "engines":{
-      "node":"> 0.1.90"
+      "node":">0.12.14"
    }
 }
